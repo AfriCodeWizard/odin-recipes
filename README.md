@@ -1,2 +1,2 @@
 # odin-recipes
-In this project Im going to build a basic recipe website which is going to put the resently learnt HTML skills I have acquired into practice.
+I am embarking on a project to develop a basic recipe website, which will allow me to apply and refine the HTML skills I have recently acquired.
