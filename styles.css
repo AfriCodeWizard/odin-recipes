@@ -1,0 +1,105 @@
+/* Reset and Box-Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* Button Styles */
+.button-link {
+  background-color: orange;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button-link:hover {
+  background-color: rgb(173, 99, 9);
+}
+
+/* Home Title */
+.home-title {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Recipe Title */
+.recipe-title {
+  background-color: orange;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Jollof Image Styling */
+.recipe-img {
+  display: block;
+  margin: -10 auto; /* Center the image */
+  max-width: 25%; /* Ensure the image scales with the page */
+  height: auto; /* Maintain aspect ratio */
+}
+
+  .recipe-img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 25%; /* Ensure the image scales with the page */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+
+/* Rotate Image Styling */
+.rotate-image {
+  display: block;
+  margin: 10 auto; /* Center the image */
+  max-width: 25%; /* Ensure the image scales with the page */
+  height: auto; /* Maintain aspect ratio */
+  transform: rotate(90deg); /* Rotate the image by 90 degrees */
+}
+
+/* Heading Styles */
+h2 {
+  color: blue;
+  font-weight: bold;
+}
+
+p, ul, ol {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* General Image Styles */
+img {
+  display: block;
+  margin: auto; /* Center the image */
+  max-width: 50%; /* Ensure the image scales with the page */
+  height: auto; /* Maintain aspect ratio */
+}
+
