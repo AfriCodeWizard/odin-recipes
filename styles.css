@@ -103,3 +103,7 @@ img {
   height: auto; /* Maintain aspect ratio */
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
